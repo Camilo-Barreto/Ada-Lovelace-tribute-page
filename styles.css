@@ -95,4 +95,9 @@
     p {
         font-size: 40px;
     }
+
+    #tribute-info {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
