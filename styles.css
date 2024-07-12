@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  
+  .nothing-you-could-do-regular {
+    font-family: "Nothing You Could Do", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  #img-div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    display: block;
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    min-width: 200px;
+    border-radius: 25px 25px 25px 25px;
+    
+  }
+  
+  #title, p {
+    background-color: grey;
+    text-align: center;
+    padding: 0;
+  }
+  
+  #title {
+    font-size: 90px;
+    
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 50px;
+  }
+  
+  #tribute-info {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  li {
+    margin: 10px 4px;
+  }
+  
+  .dates {
+    font-weight: bold;
+  }
+  
+  .centered {
+    text-align: center;
+    font-size: 15px;
+    max-width: 400px;
+  }
+  
+  .centered-block {
+    display: block;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    #title {
+    font-size: 60px;
+    
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+  
+    p {
+        font-size: 40px;
+    }
+  }
